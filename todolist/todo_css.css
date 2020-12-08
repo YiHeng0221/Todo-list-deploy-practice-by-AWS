@@ -1,0 +1,160 @@
+body {
+        font-family: 'Quicksand', "Microsoft JhengHei", sans-serif;
+      }
+
+      /*本體*/
+      .wrapper {
+        display: flex;
+        justify-content: space-around;
+        max-width: 645px;
+        background: #f6f4e6;
+        margin: 10% auto;
+        box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+        padding: 10px 10px;
+        color: #776d8a;
+
+      }
+
+      .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 600px;
+      }
+
+      /*標題*/
+      .list_title {
+        display: flex;
+        justify-content: space-between;
+
+      }
+
+      .list_nail {
+        margin: 10px;
+        width:20px;
+        height:20px;
+        border: #dbe3e5 solid;
+        border-radius: 100%;
+        background-color: #dbe3e5;
+        box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+      }
+
+      /*輸入*/
+      .list_enter input{
+        border opacity: 100%;
+        text-align: center;
+        width: 100%;
+        background: #f6f4e6;
+        padding: 10px 10px;
+        color: #776d8a;
+        display: block;
+        border: none;
+        margin-bottom: 35px;
+        transition: all 0.3s;
+        outline: none;
+      }
+
+      .list_enter input::placeholder {
+        color: #776d8a;
+        opacity: 50%;
+      }
+
+      .list_enter input:hover {
+        color: #776d8a;
+        background: #e8ded2;
+        opacity: 50%;
+      }
+
+      .list_enter input:focus {
+        text-align: center;
+        width: 100%;
+        background: #e8ded2;
+        padding: 10px 10px;
+        color: #776d8a;
+        display: block;
+        margin-bottom: 35px; 
+      }
+
+      /*未完成內容*/
+      .list_content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .list_item {
+        position: relative;
+        padding: 12px 24px;
+        font-size: 20px;
+        transition: all 0.2s;
+      }
+
+      .list_item + .list_item  {
+        margin-top: 10px;
+      }
+
+      .list_text {
+        position: relative;
+        display: inline-block;
+        margin: 10px 0;
+        margin-left: 20px;
+        font-size: 16px;
+      }
+
+      .list_item:hover {
+        background-color: #d9c6a5;
+      }
+
+      /*完成內容*/
+      .finished {
+        opacity: 50%;
+      }
+
+    
+      .finished > .list_text {
+        text-decoration: line-through;
+      }
+
+      /*按鈕*/
+      .list_btn_check {
+        position: relative;
+        display: inline-block;
+        background: #f6f4e6;
+        color: #776d8a 2px;
+        width: 15px;
+        height: 15px;
+        transition: all 0.2s;
+      }
+
+      .list_btn_check:hover {
+        cursor: pointer;
+      }
+
+      .list_btn_check: checked {
+        background: #f6f4e6;
+        width: 15px;
+        height: 15px;
+      }
+
+      .list_btn_delete {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+      }
+
+      .list_btn_delete::after { 
+        font-size: 25px;
+        content: "\00D7";
+        color: #776d8a;
+        text-align: center;
+      }
+
+      .list_btn_delete:hover { 
+        opacity: 50%;
+        cursor: pointer;
+      }
+
+      /*移除*/
+      .remove {
+        display: none;
+      }
