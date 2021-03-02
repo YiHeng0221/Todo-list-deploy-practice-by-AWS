@@ -1,9 +1,10 @@
 # AWS EC2 部署練習
+
 以 TodoList 為例。
 使用語言前端以 JavaScript (使用 jQuery 函式庫)、後端以PHP 為主。
+[](https://github.com/YiHeng0221/deploy-test/blob/main/todolist.gif)
 
-
-[連結](http://3.137.202.180/deploy-test/todolist/todo.html?id=1)
+![image](https://github.com/YiHeng0221/deploy-test/blob/main/todolist.gif)
 
 ## Todo List 功能
 
