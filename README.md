@@ -17,4 +17,4 @@
 7. 於 url 處輸入該 Todo 之 id 之後，可以點擊下方右側 Update Todo 來對該 Todolist 進行更新。
 
 ## 部署過程
-詳見 [hackmd 筆記](https://hackmd.io/UzphGsZdTfSCTTR9mIIa6g?view#Step-11-%E9%80%A3%E7%B7%9A%E8%87%B3%E5%9F%B7%E8%A1%8C%E5%80%8B%E9%AB%94)
+詳見 [hackmd 筆記](https://hackmd.io/UzphGsZdTfSCTTR9mIIa6g?view#Step-11-%E9%80%A3%E7%B7%9A%E8%87%B3%E5%9F%B7%E8%A1%8C%E5%80%8B%E9%AB%94)。
